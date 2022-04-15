@@ -41,8 +41,7 @@ socket.on('user-disconnected', userId => {
             peers[i].close()
             console.log('User Disconnected: ' + userId)
         }
-    }
-    
+    }    
 })
 
 myPeer.on('open', id => {
